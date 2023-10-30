@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/00_Scenes/BaekIn/Title.unity
+    guid: 47ca1363e63e26b45aa2b29dc0cb6882
+  - enabled: 1
+    path: Assets/00_Scenes/BaekIn/Intro.unity
+    guid: f5b83295edc48c94f927569cb60d9ea2
+  - enabled: 1
     path: Assets/00_Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   m_configObjects: {}
