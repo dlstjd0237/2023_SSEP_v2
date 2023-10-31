@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UIElements;
 
 public enum Sound {
     Bgm,
@@ -79,7 +79,28 @@ public void Clear() {
         Play(audioClip, type, pitch);
     }
 
-    private AudioClip GetOrAddAudioClip(string path, Sound type = Sound.Effect) {
+    private AudioClip GetOrAddAudioClip(string path, Sound type = Sound.Effect) { // path를 통해 해당 클립을 로드하고 리턴한다
+        if(path.Contains("Sounds/") == false) {
+            path = $"Sounds/{path}"; // Sounds 폴더 안에 저장해 주기
+        }
+        AudioClip audioClip = null;
 
+        if(type == Sound.Bgm) {
+            //audioClip = Manager.Resource.Load<AudioClip>(path);
+        }
+        // 효과음에 경우 매우 많이 사용하기 때문에 Dictionary에 보관해두고 가져온다
+        else if (type == Sound.Effect) {
+            //_audioClip에 Dictionary에 해당path(Key)가 존재하는지 확인한다 
+            if (_audioClip.TryGetValue(path, out audioClip) == false) { // 만약 없다면 추가한다
+                //audioClip = Manager.Resource.Load<AudioClip>(path);
+                _audioClip.Add(path, audioClip);
+            }
+            // 만약 있다면 그냥 그대로 return
+        }
+
+        if(audioClip == null) {
+            Debug.Log($"Missing AudioSource...{path}");
+        }
+        return audioClip;
     }
 }
