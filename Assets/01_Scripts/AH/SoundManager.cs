@@ -7,12 +7,16 @@ public enum Sound {
     Effect,
     MaxCount //그냥 enum의 개수를 세기 위해 존재(아무것도 아님)
 }
-public class SoundManager : MonoBehaviour {
+public class SoundManager : MonoSingleton<SoundManager> {
     AudioSource[] _audioSources = new AudioSource[(int)Sound.MaxCount];
     Dictionary<string, AudioClip> _audioClip = new Dictionary<string, AudioClip>();
 
+    /// <summary>
+    /// SoundManager라는 오브젝트를 만들어서 그 아래에 Sound에 있는 타입 만큼의 오브젝트 생성 후 각각 AudioSource를 붙여줌
+    /// </summary>
     public void Init() {
         GameObject root = GameObject.Find("SoundManager"); // "SoundManager라는 이름의 오브젝트를 찾아
+        Debug.Log(root);
         if (root == null) { // 없다면
             root = new GameObject { name = "SoundManager" }; // SoundManager오브젝트를 만들고 
             Object.DontDestroyOnLoad(root); // 파괴 보호 방지
@@ -20,7 +24,7 @@ public class SoundManager : MonoBehaviour {
             string[] soundName = System.Enum.GetNames(typeof(Sound)); // BGM Effect
             for (int i = 0; i < soundName.Length - 1; i++) { // -1 : MaxCount빼기
                 GameObject go = new GameObject { name = soundName[i] }; // 이를 부모로 삼는 Bgm, Effect라는 이름의 오브젝트에
-                _audioSources[i] = go.GetComponent<AudioSource>(); // AudioSource를 붙인다
+                _audioSources[i] = go.AddComponent<AudioSource>(); // AudioSource를 붙인다
                 go.transform.parent = root.transform;
             }
 
@@ -37,7 +41,7 @@ public class SoundManager : MonoBehaviour {
     ///     CurrentScene.Clear();
     /// }
     /// </summary> 신이 바뀔 때 호출하자!
-public void Clear() {
+    public void Clear() {
         // 재생기 전부 재생 정지, 음반 빼기
         foreach (AudioSource audioSource in _audioSources) {
             audioSource.clip = null;
@@ -46,7 +50,6 @@ public void Clear() {
         // 효과음 Dictionary 비우기
         _audioClip.Clear(); // 그럴일없지만 게임이 너무 오래 진행 시 _audioClip에 Dictionary가 계속 추가되어 메모리가 부족해질 수 있음
     }
-
     public void Play(AudioClip audioClip, Sound type = Sound.Effect, float pitch = 1.0f) { // 음원의 audioClip을 받아 재생시킴
         if (audioClip == null) {
             return;
