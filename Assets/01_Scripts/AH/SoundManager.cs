@@ -15,10 +15,9 @@ public class SoundManager : MonoSingleton<SoundManager> {
     /// SoundManager라는 오브젝트를 만들어서 그 아래에 Sound에 있는 타입 만큼의 오브젝트 생성 후 각각 AudioSource를 붙여줌
     /// </summary>
     public void Init() {
-        GameObject root = GameObject.Find("SoundManager"); // "SoundManager라는 이름의 오브젝트를 찾아
-        Debug.Log(root);
+        GameObject root = GameObject.Find("Sound"); // "SoundManager라는 이름의 오브젝트를 찾아
         if (root == null) { // 없다면
-            root = new GameObject { name = "SoundManager" }; // SoundManager오브젝트를 만들고 
+            root = new GameObject { name = "Sound" }; // SoundManager오브젝트를 만들고 
             Object.DontDestroyOnLoad(root); // 파괴 보호 방지
 
             string[] soundName = System.Enum.GetNames(typeof(Sound)); // BGM Effect
