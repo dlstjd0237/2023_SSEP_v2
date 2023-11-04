@@ -7,7 +7,7 @@ public class SceneLoadManager : MonoSingleton<SceneLoadManager>
 {
     private Image _image = null;
     private Color _cr;
-    private float _fadeCool = 3; public float FadeCool { get => _fadeCool; set => _fadeCool = value; }
+   [SerializeField] private float _fadeCool = 3; public float FadeCool { get => _fadeCool; set => _fadeCool = value; }
     private void Awake()
     {
         _image = transform.Find("Canvas/FadeImage").GetComponent<Image>();
@@ -44,6 +44,7 @@ public class SceneLoadManager : MonoSingleton<SceneLoadManager>
     /// <param name="action"></param>
     public void FadeOut(Action action)
     {
+        StopAllCoroutines();
         StartCoroutine(fadeOut(action));
     }
     private IEnumerator fadeOut(Action action)

@@ -18,7 +18,7 @@ public class StartScene : MonoBehaviour
 
     private void Update()
     {
-        if (Keyboard.current.anyKey.wasPressedThisFrame && _isStart == false)
+        if ((Keyboard.current.anyKey.wasPressedThisFrame ||Mouse.current.leftButton.wasPressedThisFrame) &&_isStart == false)
         {
             _isStart = true;
             SceneLoadManager.Instance.FadeOut(() => SceneManager.LoadScene(NextScene));

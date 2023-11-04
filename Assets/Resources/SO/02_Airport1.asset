@@ -10,14 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc9bf6e4d3cd3144c99b8307c849837c, type: 3}
-  m_Name: 1
+  m_Name: 02_Airport1
   m_EditorClassIdentifier: 
   Info:
-  - "\uBC31\uC778\uC131"
-  - "\uC751\uB290\uAE08\uB9C8"
-  - "\uC774\uC9C0\uC6B0"
-  - "\uBB50\uB77C\uB294\uAC70\uC57C \uD749\uC790\uB144\uC774"
-  - "\uBC31\uC778\uC131"
-  - "???\uBB50\uB77C\uACE0 \uC2ED\uB828\uC544?"
-  - "\uC774\uC9C0\uC6B0"
-  - "\uB098\uB294 \uB124\uB140\uC11D\uC744 \uC8FD\uC774\uB7EC \uAC00"
+  - "\uB098"
+  - ...
+  - "\uB098 "
+  - "But, where do we go?`(\uADF8\uB7F0\uB370, \uC5B4\uB514\uB85C \uAC00\uC9C0?)"
+  SpriteList:
+  - {fileID: 21300000, guid: 9aa420d0c0a7c634f84a670e77cb40f3, type: 3}
+  - {fileID: 21300000, guid: 9aa420d0c0a7c634f84a670e77cb40f3, type: 3}

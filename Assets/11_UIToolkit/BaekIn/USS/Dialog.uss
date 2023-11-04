@@ -1,0 +1,41 @@
+#contain.on {
+    opacity: 0;
+}
+
+.btn-box {
+    flex-grow: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    align-self: auto;
+}
+
+.btn {
+    width: 977px;
+    height: 143px;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url('project://database/Assets/02_Sprites/BaekIn/Dark%20UI/Free/32%20Light.png?fileID=21300000&guid=a689281f545979940b5cedad12ec31a8&type=3#32 Light');
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+    align-self: auto;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    font-size: 61px;
+    color: rgb(255, 255, 255);
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.btn:hover {
+    scale: 1.1 1.1;
+}
+
+#btn-box.on {
+    opacity: 0;
+}

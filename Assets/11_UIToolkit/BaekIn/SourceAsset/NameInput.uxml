@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/11_UIToolkit/BaekIn/USS/NameInput.uss?fileID=7433441132597879392&amp;guid=fdd1d9b72ecfd8e41849bbd3b62b46aa&amp;type=3#NameInput" />
+    <ui:VisualElement name="contain-box" style="flex-grow: 1; background-color: rgb(0, 0, 0); transition-duration: 0.8s; align-items: center; justify-content: center;">
+        <ui:VisualElement name="inputcontain-box" class="inputcontain" style="justify-content: space-around;">
+            <ui:Label tabindex="-1" text="님 이름 적으세요" parse-escape-sequences="true" display-tooltip-when-elided="true" name="info-label" class="info" style="height: 130px;" />
+            <ui:TextField picking-mode="Ignore" value="이름 쓰십쇼" name="inputname-textfield" keyboard-type="Default" max-length="12" password="false" class="inputname" style="border-bottom-color: rgb(0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="btncontain-box" style="flex-grow: 0; flex-direction: row; justify-content: space-around; align-self: stretch; white-space: normal; flex-wrap: wrap; align-items: center; margin-top: 50px;">
+                <ui:Button text="Submit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="submit-btn" class="btn" style="transition-timing-function: ease; transition-duration: 0.3s;" />
+            </ui:VisualElement>
+            <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="error-label" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
