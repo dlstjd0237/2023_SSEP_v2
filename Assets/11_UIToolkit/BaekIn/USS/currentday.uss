@@ -1,0 +1,10 @@
+.currentday {
+    -unity-text-align: upper-center;
+    font-size: 235px;
+    top: -201px;
+    opacity: 1;
+}
+
+.currentday.on {
+    opacity: 0;
+}

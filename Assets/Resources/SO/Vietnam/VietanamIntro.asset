@@ -10,13 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc9bf6e4d3cd3144c99b8307c849837c, type: 3}
-  m_Name: 02_Airport2
+  m_Name: VietanamIntro
   m_EditorClassIdentifier: 
   Info:
   - "\uB098"
-  - "\\ looks fun.`(\\\uC774(\uAC00) \uC7AC\uBBF8\uC788\uC5B4\uBCF4\uC774\uB124.)"
-  - "\uB098 "
-  - "\\I m coming!`(\\\uB0B4\uAC00\uAC04\uB2E4!!)"
+  - "arrived somehow! I'll go to my friend's house first`(\uC5B4\uB5BB\uAC8C\uB4E0
+    \uB3C4\uCC29\uD588\uAD70, \uC6B0\uC120 \uCE5C\uAD6C\uC9D1\uC73C\uB85C \uAC00\uC57C\uACA0\uB2E4.)"
+  - "\uB098"
+  - "I shouldn't go empty-handed; I should buy something, no matter how small.`(\uBE48\uC190\uC73C\uB85C
+    \uAC00\uAE30 \uC880 \uADF8\uB7EC\uB2C8 \uBB50\uB77C\uB3C4 \uC0AC\uB7EC \uAC00\uC57C\uC9C0)"
   SpriteList:
   - {fileID: 21300000, guid: 9aa420d0c0a7c634f84a670e77cb40f3, type: 3}
   - {fileID: 21300000, guid: 9aa420d0c0a7c634f84a670e77cb40f3, type: 3}

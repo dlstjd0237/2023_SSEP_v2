@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Airport : MonoBehaviour
 {
     private void Awake()
@@ -34,6 +34,6 @@ public class Airport : MonoBehaviour
 
     private void OnChoice()
     {
-        DialogSystem.Instance.ShowTextBar(Resources.Load<DialogSystemSO>("SO/02_Airport2"));
+        DialogSystem.Instance.ShowTextBar(Resources.Load<DialogSystemSO>("SO/02_Airport2"),()=>SceneLoadManager.Instance.FadeOut(()=>SceneManager.LoadScene(GameManger.Instance.CurrentCountry)));
     }
 }
