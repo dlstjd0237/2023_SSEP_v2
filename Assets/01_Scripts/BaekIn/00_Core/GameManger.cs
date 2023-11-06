@@ -8,4 +8,13 @@ public class GameManger : MonoSingleton<GameManger>
     public string CurrentCountry { get; set; }
 
     public int ToDay = 0;
+    public int Point = 0;
+
+    public bool Vietnam1 { get; set; }
+    public bool Vietnam2 { get; set; }
+    public bool Vietnam3 { get; set; }
+    public bool Vietnam4 { get; set; }
+    public bool Vietnam5 { get; set; }
+
+
 }

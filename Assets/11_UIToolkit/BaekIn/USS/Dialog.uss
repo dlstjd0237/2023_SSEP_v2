@@ -18,7 +18,7 @@
     width: 977px;
     height: 143px;
     background-color: rgba(255, 255, 255, 0);
-    background-image: url('project://database/Assets/02_Sprites/BaekIn/Dark%20UI/Free/32%20Light.png?fileID=21300000&guid=a689281f545979940b5cedad12ec31a8&type=3#32 Light');
+    background-image: url('project://database/Assets/02_Sprites/BaekIn/Dark%20UI/Free/32.png?fileID=21300000&guid=dcdc43f7a0ad67b4ab3e3db38233dfae&type=3#32');
     -unity-background-image-tint-color: rgb(0, 0, 0);
     align-self: auto;
     align-items: center;
@@ -28,10 +28,10 @@
     color: rgb(255, 255, 255);
     -unity-text-outline-width: 1px;
     -unity-text-outline-color: rgb(0, 0, 0);
-    border-left-color: rgb(255, 255, 255);
-    border-right-color: rgb(255, 255, 255);
-    border-top-color: rgb(255, 255, 255);
-    border-bottom-color: rgb(255, 255, 255);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
     border-top-width: 1px;
     border-right-width: 1px;
     border-bottom-width: 1px;

@@ -25,4 +25,6 @@ public class StartUI : MonoBehaviour
         DialogSystem.Instance.ShowTextBar(Resources.Load<DialogSystemSO>(path),()=>SceneLoadManager.Instance.FadeOut(()=>SceneManager.LoadScene(nextScene)));
     }
 
+  
+    
 }
