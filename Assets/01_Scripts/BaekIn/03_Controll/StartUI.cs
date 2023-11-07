@@ -6,6 +6,7 @@ public class StartUI : MonoBehaviour
     private UIDocument _doc;
 
     private Label _currentDayLabel;
+    [SerializeField] private bool startChake;
     [SerializeField] private string path;
     [SerializeField] private string nextScene;
     private void Awake()
@@ -22,9 +23,7 @@ public class StartUI : MonoBehaviour
     private void Hiden()
     {
         _currentDayLabel.AddToClassList("on");
-        DialogSystem.Instance.ShowTextBar(Resources.Load<DialogSystemSO>(path),()=>SceneLoadManager.Instance.FadeOut(()=>SceneManager.LoadScene(nextScene)));
+        if (startChake)
+            DialogSystem.Instance.ShowTextBar(Resources.Load<DialogSystemSO>(path), () => SceneLoadManager.Instance.FadeOut(() => SceneManager.LoadScene(nextScene)));
     }
-
-  
-    
 }
