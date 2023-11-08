@@ -20,10 +20,12 @@ public class DialogSystem : MonoSingleton<DialogSystem>
     private Button _firstButton;
     private Button _secondButton;
     private Button _thirdButton;
+    [SerializeField] private AudioClip _audio;
 
     private List<Action> _buttonAction = new();
     private void OnEnable()
     {
+        SoundManager.Instance.Init();
         Init();
         _containBox.AddToClassList("on");
 
@@ -147,6 +149,7 @@ public class DialogSystem : MonoSingleton<DialogSystem>
                 }
             }
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.E));
+            SoundManager.Instance.Play(_audio, Sound.Effect, 1);
             nameCount++;
 
         }
@@ -191,6 +194,7 @@ public class DialogSystem : MonoSingleton<DialogSystem>
                 }
             }
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.E));
+            SoundManager.Instance.Play(_audio, Sound.Effect, 1);
             nameCount++;
 
         }
@@ -231,6 +235,7 @@ public class DialogSystem : MonoSingleton<DialogSystem>
                 }
             }
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.E));
+            SoundManager.Instance.Play(_audio, Sound.Effect, 0.5f);
             nameCount++;
 
         }

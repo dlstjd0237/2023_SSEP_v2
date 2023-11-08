@@ -5,6 +5,7 @@ public class AH_UIManager : MonoBehaviour {
     [SerializeField] private AudioClip testEffectClip;
     [SerializeField] private AudioClip testBgmClip;
     [SerializeField] private GameObject settingPanel;
+    [SerializeField] private GameObject _panelBackground;
 
     private AudioSource bgm_source;
     private AudioSource effect_source;
@@ -17,12 +18,12 @@ public class AH_UIManager : MonoBehaviour {
     private void Start() {
         SoundManager.Instance.Play(testBgmClip, Sound.Bgm, 1); // Play(사용할 클립, 클립의 타입, 피치(재생 속도))
     }
-    /// <summary>
-    /// 태스트용
-    /// </summary>
-    public void PlayEffect() {
-        SoundManager.Instance.Play(testEffectClip, Sound.Effect, 1); // Play(사용할 클립, 클립의 타입, 피치(재생 속도))
-    }
+    ///// <summary>
+    ///// 태스트용
+    ///// </summary>
+    //public void PlayEffect() {
+    //    SoundManager.Instance.Play(testEffectClip, Sound.Effect, 1); // Play(사용할 클립, 클립의 타입, 피치(재생 속도))
+    //}
     public void BgmAudioControl(Scrollbar slider) {
         float sound = slider.value;
 
@@ -39,8 +40,10 @@ public class AH_UIManager : MonoBehaviour {
 
     public void OpenPanel() {
         settingPanel.SetActive(true);
+        _panelBackground.SetActive(true);
     }
     public void ClosePanel() {
         settingPanel.SetActive(false);
+        _panelBackground.SetActive(false);
     }
 }
