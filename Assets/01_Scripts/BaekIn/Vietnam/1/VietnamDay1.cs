@@ -10,7 +10,7 @@ public class VietnamDay1 : MonoBehaviour
     [SerializeField] private List<string> _choice = new();
     [Header("선택하면 넘어갈 씬")]
     [SerializeField] private string _nextScene;
-    [Header("어떤걸 ")]
+    [Header("좋은 선택지 체크 ")]
     [SerializeField] private List<bool> Completion = new();
     private void Start()
     {

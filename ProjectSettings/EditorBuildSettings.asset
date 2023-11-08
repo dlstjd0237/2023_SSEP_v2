@@ -38,4 +38,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/00_Scenes/BaekIn/County/Vietnam/2/Vietnam2.unity
     guid: d59e258dbd66af74d81858bfa9a2b38f
+  - enabled: 1
+    path: Assets/00_Scenes/BaekIn/County/Vietnam/3/Vietnam3.unity
+    guid: bc9c7a02e55682b4d8c71e598b7864cc
+  - enabled: 1
+    path: Assets/00_Scenes/BaekIn/County/Vietnam/3/Vietnam3End.unity
+    guid: b97e851db7b6f254c80765c2e3e6bd85
+  - enabled: 1
+    path: Assets/00_Scenes/BaekIn/County/Vietnam/4/Vietnam4.unity
+    guid: ddf1fe6a26e14fe488572478d786de7c
+  - enabled: 1
+    path: Assets/00_Scenes/BaekIn/County/Vietnam/4/Vietnam4End.unity
+    guid: eeccd8e46281d8f44aa75487a5d8a88f
+  - enabled: 1
+    path: Assets/00_Scenes/BaekIn/County/Vietnam/5/Vietnam5.unity
+    guid: 9853f745c7fed3940b41b5a1d6cb85c2
+  - enabled: 1
+    path: Assets/00_Scenes/BaekIn/County/Vietnam/5/Vietnam5End.unity
+    guid: a1a15b66fdb69f4479bc846243562f5d
+  - enabled: 1
+    path: Assets/00_Scenes/BaekIn/End.unity
+    guid: d78635f2dd3801a4391b3b1cf6604ffb
   m_configObjects: {}

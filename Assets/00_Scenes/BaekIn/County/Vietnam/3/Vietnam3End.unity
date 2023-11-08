@@ -186,14 +186,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6508892373371534894, guid: 5969298ab0ab4e94db1f4534fc685c28, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 317631230}
+      addedObject: {fileID: 317631231}
   m_SourcePrefab: {fileID: 100100000, guid: 5969298ab0ab4e94db1f4534fc685c28, type: 3}
 --- !u!1 &317631229 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6508892373371534894, guid: 5969298ab0ab4e94db1f4534fc685c28, type: 3}
   m_PrefabInstance: {fileID: 317631228}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &317631230
+--- !u!114 &317631231
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -202,12 +202,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 317631229}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eaa941029606e4a927d18333a0a257, type: 3}
+  m_Script: {fileID: 11500000, guid: 63c52a0dced8d5d4ab007bbe1b3e0d22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _badPathSO: SO/Vietnam/2/Vietanam2HyppeEnd
-  _goodPathSO: SO/Vietnam/2/Vietanam2BadEnd
-  nextScene: Vietnam3
+  _badPathSO: SO/Vietnam/3/Vietanam3HyppeEnd
+  _goodPathSO: SO/Vietnam/3/Vietanam3BadEnd
+  nextScene: Vietnam4
 --- !u!1 &819308660
 GameObject:
   m_ObjectHideFlags: 0

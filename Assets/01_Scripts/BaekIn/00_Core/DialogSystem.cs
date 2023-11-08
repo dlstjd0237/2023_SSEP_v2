@@ -103,7 +103,8 @@ public class DialogSystem : MonoSingleton<DialogSystem>
         //Init();
         _containBox.RemoveFromClassList("on");
         currentSO = dialogSystemSO;
-        StartCoroutine(SetText(currentSO.Info, currentSO.SpriteList, action));
+        StartCoroutine(SetText(currentSO.Info, currentSO.SpriteList, action)); 
+  
 
     }
 

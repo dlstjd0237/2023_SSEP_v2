@@ -10,21 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc9bf6e4d3cd3144c99b8307c849837c, type: 3}
-  m_Name: Vietanam1BadEnd
+  m_Name: Vietanam4HyppeEnd
   m_EditorClassIdentifier: 
   Info:
+  - "\uCE5C\uAD6C"
+  - "What did you buy?`(\uBB58 \uC0AC\uC654\uB2C8?)"
   - "\uB098"
-  - "I handed her a present.`(\uB098\uB294 \uADF8\uB140\uC5D0\uAC8C \uC120\uBB3C\uC744
-    \uAC74\uB138\uB2E4.)"
-  - "\uB098"
-  - ...
-  - "\uB098"
-  - ...
-  - 
-  - "She seems to like the present.`(\uADF8\uB140\uB294 \uC120\uBB3C\uC774 \uB9D8\uC5D0
-    \uB4E0 \uAC83 \uAC19\uB2E4.)"
+  - "\uC81C\uC0BF\uC0C1\uC5D0 \uC62C\uB9B4 \uACFC\uC77C"
+  - "\uCE5C\uAD6C"
+  - "Oh? Watermelon? Thank you!`(\uC5B4? \uC218\uBC15\uC774\uB124 \uACE0\uB9C8\uC6CC!)"
   SpriteList:
   - {fileID: 21300000, guid: 4ba89f06b6335b6438ae18962b683172, type: 3}
   - {fileID: 21300000, guid: 4ba89f06b6335b6438ae18962b683172, type: 3}
-  - {fileID: 21300000, guid: 3cacb3c32e812c049a32a592b9fb963e, type: 3}
-  - {fileID: 21300000, guid: 3cacb3c32e812c049a32a592b9fb963e, type: 3}
+  - {fileID: 21300000, guid: 83526791445f36d4c91f3b5394b50086, type: 3}
