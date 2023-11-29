@@ -18,7 +18,7 @@
     width: 977px;
     height: 143px;
     background-color: rgba(255, 255, 255, 0);
-    background-image: url('project://database/Assets/02_Sprites/BaekIn/Dark%20UI/Free/32.png?fileID=21300000&guid=dcdc43f7a0ad67b4ab3e3db38233dfae&type=3#32');
+    background-image: url('project://database/Assets/02_Sprites/AH/UI/32.png?fileID=21300000&guid=dcdc43f7a0ad67b4ab3e3db38233dfae&type=3#32');
     -unity-background-image-tint-color: rgb(0, 0, 0);
     align-self: auto;
     align-items: center;
@@ -36,6 +36,8 @@
     border-right-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
+    -unity-font-definition: initial;
+    -unity-font: url('project://database/Assets/01_Scripts/BaekIn/00_Core/HeirofLightBold.ttf?fileID=12800000&guid=9f3274238885b304a8fd68a7e6b2d0fd&type=3#HeirofLightBold');
 }
 
 .btn:hover {

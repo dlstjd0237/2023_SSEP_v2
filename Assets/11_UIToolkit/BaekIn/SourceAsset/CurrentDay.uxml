@@ -1,6 +1,6 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/11_UIToolkit/BaekIn/USS/currentday.uss?fileID=7433441132597879392&amp;guid=44741ca054b70ae488cd0f57a1169cf5&amp;type=3#currentday" />
     <ui:VisualElement name="contain-box" picking-mode="Ignore" style="flex-grow: 1; justify-content: space-around; align-self: stretch; -unity-background-image-tint-color: rgba(255, 255, 255, 0);">
-        <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="currentday-label" picking-mode="Ignore" class="currentday on" style="transition-duration: 0.6s; white-space: normal; color: rgb(255, 255, 255);" />
+        <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="currentday-label" picking-mode="Ignore" class="currentday on" style="transition-duration: 0.6s; white-space: normal; color: rgb(255, 255, 255); -unity-font: url(&apos;project://database/Assets/01_Scripts/BaekIn/00_Core/HeirofLightBold.ttf?fileID=12800000&amp;guid=9f3274238885b304a8fd68a7e6b2d0fd&amp;type=3#HeirofLightBold&apos;); -unity-font-definition: initial;" />
     </ui:VisualElement>
 </ui:UXML>

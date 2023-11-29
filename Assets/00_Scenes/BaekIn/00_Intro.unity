@@ -582,7 +582,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 127279d577f25ac4ea17dae3782e5074, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dcdc43f7a0ad67b4ab3e3db38233dfae, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -655,7 +655,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   testEffectClip: {fileID: 8300000, guid: 8b7e896a60f25a94b9010e37dd21e4d2, type: 3}
-  testBgmClip: {fileID: 8300000, guid: 3e4fade32f7eb4a4b8b3c18ef53b1203, type: 3}
+  testBgmClip: {fileID: 8300000, guid: 1280c68924d42454a988455f36e0dd76, type: 3}
   settingPanel: {fileID: 2080284637}
   _panelBackground: {fileID: 317231494}
 --- !u!114 &319960741
