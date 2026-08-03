@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc9bf6e4d3cd3144c99b8307c849837c, type: 3}
+  m_Name: Vietanam5HyppeEnd
+  m_EditorClassIdentifier: 
+  Info:
+  - "\uCE5C\uAD6C"
+  - "Thank you! \uB098`(\uACE0\uB9C8\uC6CC \uB098)"
+  - "\uCE5C\uAD6C"
+  - "See you next time!!`(\uB2E4\uC74C\uC5D0\uB3C4 \uB610 \uB9CC\uB098\uC790!)"
+  SpriteList:
+  - {fileID: 21300000, guid: 3cacb3c32e812c049a32a592b9fb963e, type: 3}
+  - {fileID: 21300000, guid: 3cacb3c32e812c049a32a592b9fb963e, type: 3}

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc9bf6e4d3cd3144c99b8307c849837c, type: 3}
+  m_Name: Intro
+  m_EditorClassIdentifier: 
+  Info:
+  - 
+  - "Developing a Game\u2026.`(\uAC8C\uC784 \uAC1C\uBC1C \uC911\u2026.)"
+  - 
+  - "Weaving Code\u2026.`(\uCF54\uB4DC \uC9DC\uB294 \uC911\u2026.)"
+  - 
+  - "Developing a Game\u2026.`(\uAC8C\uC784 \uAC1C\uBC1C \uC911\u2026.)"
+  - 
+  - ..
+  - 
+  - ...
+  - 
+  - ....
+  - "\uB098"
+  - "The same routine every day.`(\uB9E4\uC77C \uB611\uAC19\uC740 \uC77C\uC0C1.) "
+  - "\uB098"
+  - "a day of meaningless repetition.`(\uC758\uBBF8 \uC5C6\uC774 \uBC18\uBCF5\uB418\uB294
+    \uD558\uB8E8)"
+  - "\uB098"
+  - "tedious.`(\uC9C0\uACB9\uB2E4.)"
+  - "\uB098"
+  - "Is there anything fun?`(\uC7AC\uBBF8\uC788\uB294 \uAC70 \uBB50 \uC5C6\uB098?)"
+  - "\uB098"
+  - "Okay! Let's go on a trip!`(\uADF8\uB798! \uC5EC\uD589\uC744 \uAC00\uC790!)"
+  - "\uB098"
+  - "No one can stop me!`(\uC544\uBB34\uB3C4 \uB098\uB97C \uB9C9\uC744 \uC218 \uC5C6\uC5B4!)"
+  SpriteList:
+  - {fileID: 21300000, guid: ae3c3e752c168e84dad985f4fb3223da, type: 3}
+  - {fileID: 21300000, guid: ae3c3e752c168e84dad985f4fb3223da, type: 3}
+  - {fileID: 21300000, guid: ae3c3e752c168e84dad985f4fb3223da, type: 3}
+  - {fileID: 21300000, guid: ff9006759c682dd4888ad585ad77d6d7, type: 3}
+  - {fileID: 21300000, guid: ff9006759c682dd4888ad585ad77d6d7, type: 3}
+  - {fileID: 21300000, guid: 74ec1a72eb2a8dd45b3458e41a4fa452, type: 3}
+  - {fileID: 21300000, guid: 74ec1a72eb2a8dd45b3458e41a4fa452, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 5baea6ab9eab49246af1198b8b1feb53, type: 3}
+  - {fileID: 21300000, guid: 5baea6ab9eab49246af1198b8b1feb53, type: 3}

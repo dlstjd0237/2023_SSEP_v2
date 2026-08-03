@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,6 +5,8 @@ using UnityEngine;
 
 public class DialogSystemSO : ScriptableObject
 {
-    [Header("이런식으로 적어야함 홀수칸에는 말하는이 짝수칸에는 내용")]
+    [Header("홀수칸에는 말하는이 짝수칸에는 내용")]
     public List<string> Info;
+    [Header("이미지가 바뀌는 칸에다가 만 넣으셈")]
+    public List<Sprite> SpriteList;
 }
